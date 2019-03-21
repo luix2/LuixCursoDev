@@ -8,14 +8,7 @@ public class exercicio02 {
         int C, S, D, V;
         System.out.println("Informe a letra: ");
         Scanner sc = new Scanner(System.in);
-        int C = sc.nextInt();
-        if (C = Casado) {
 
-
-
-
-        }
-        System.out.println ( Resultado );
     }
 }
 
