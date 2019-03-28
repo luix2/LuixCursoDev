@@ -1,6 +1,6 @@
 package ProjetoClinica;
 
 public class Paciente {
-    String nome;
-    int idade;
+    String nome, endereco;
+    int numeroCartao;
 }
