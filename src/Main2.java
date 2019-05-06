@@ -9,5 +9,11 @@ public class Main2 {
         System.out.println( c.calcArea());
         System.out.println( c.calcPerimetro);
 
+        ICalcGeometria x = new Circulo(10);
+        x.calcArea();
+
+        }
+
+
     }
 }
