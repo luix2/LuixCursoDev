@@ -1,15 +1,11 @@
 package Petshop;
 
-public class Gerente {
+public class Gerente extends Funcionario {
     private String nome;
     private String CPF;
     private int matricula;
 
-    public Gerente(String nome, String CPF, int matricula) {
-        this.nome = nome;
-        this.CPF = CPF;
-        this.matricula = matricula;
-    }
+
 
     public String getNome() {
         return nome;

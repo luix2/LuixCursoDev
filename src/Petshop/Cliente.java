@@ -6,6 +6,7 @@ public class Cliente {
     private String CPF;
     private String End;
     private String Tel;
+    private Funcionario funcionario;
 
     public Cliente(String nome, int RG, String CPF, String end, String tel) {
         this.nome = nome;

@@ -4,12 +4,9 @@ public class Funcionario {
     private String nome;
     private String CPF;
     private int matricula;
-
-    public Funcionario(String nome, String CPF, int matricula) {
-        this.nome = nome;
-        this.CPF = CPF;
-        this.matricula = matricula;
-    }
+    private Animal[] a;
+    private Raca[] b;
+    private Cliente[] c;
 
     public String getNome() {
         return nome;

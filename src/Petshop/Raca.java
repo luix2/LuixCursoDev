@@ -3,6 +3,7 @@ package Petshop;
 public class Raca {
     private String nome;
     private String porte;
+    private Funcionario funcionario;
 
     public Raca(String nome, String porte) {
         this.nome = nome;

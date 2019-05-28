@@ -4,6 +4,7 @@ public class Animal {
     private String nome;
     private String Data_Nasc;
     private String Apelido;
+    private Funcionario funcionario;
 
     public Animal(String nome, String data_Nasc, String apelido) {
         this.nome = nome;
